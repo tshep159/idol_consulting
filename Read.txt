@@ -1,0 +1,39 @@
+Create a Git repository and push it to Bitbucket or GitHub:
+1. Navigate to your project directory.
+2. Initialize a new Git repository
+	git init
+
+Commit your code:
+	1. git add .
+	2. git commit -m "Initial commit"
+	
+Create a new repository on Bitbucket or GitHub.
+Push your code to the repository:
+	1. remote add origin [your-repository-url]
+	2. git push -u origin master
+
+
+
+
+TESTING
+
+http://localhost:8080/user //PUT
+{
+   "firstName": "John",
+   "lastName": "Doe",
+   "contactNumber": "1234567890"
+}
+
+//GET
+http://localhost:8080/user
+
+//post
+{
+   "firstName": "Jane",
+   "lastName": "Doe",
+   "contactNumber": "0987654321"
+}
+
+
+//DELETE
+http://localhost:8080/user
